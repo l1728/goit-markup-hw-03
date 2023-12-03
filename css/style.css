@@ -6,9 +6,22 @@ body {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 a {
   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
 }
 h2 {
   font-size: 36px;
@@ -22,6 +35,10 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+}
+img {
+  display: block;
+  max-width: 100%;
 }
 /* header navigation */
 .nav-page-logo,
