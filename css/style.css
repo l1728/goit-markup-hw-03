@@ -167,6 +167,7 @@ img {
 /* section 3 */
 .our-team-page {
   background: var(--CLOUD, #f4f4fd);
+  padding: 120px 0;
 }
 .our-team-page-items {
   background: #ffffff;
@@ -174,6 +175,11 @@ img {
 .our-team-page-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
+  margin-bottom: 72px;
+}
+.our-team-list {
+  display: flex;
+  gap: 24px;
 }
 .our-team-page-text {
   text-align: center;
@@ -181,9 +187,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.our-team-page-items {
+  width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-name-posit {
+  padding: 32px 0;
+}
 .our-team-page-item {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
+  margin-bottom: 8px;
 }
 /* section 4 */
 .our-portfolio-title {
