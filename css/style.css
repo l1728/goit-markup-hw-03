@@ -237,6 +237,11 @@ img {
 /* footer */
 .footer-page {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 100px 0;
+}
+.footer-page-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-page-logo-studio {
   color: var(--CLOUD, #f4f4fd);
