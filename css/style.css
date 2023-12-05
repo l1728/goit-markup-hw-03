@@ -41,6 +41,9 @@ img {
   max-width: 100%;
 }
 /* header navigation */
+.nav-page {
+}
+
 .nav-page-logo,
 .footer-page-logo {
   color: var(--IRIS, #4d5ae5);
@@ -175,4 +178,26 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
