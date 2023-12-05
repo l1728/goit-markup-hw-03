@@ -110,6 +110,7 @@ img {
 /* section 1 */
 .hero-page {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 188px 0;
 }
 .hero-page-title {
   color: var(--WHITE, #fff);
@@ -118,6 +119,9 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  max-width: 496px;
+  margin: auto;
+  margin-bottom: 48px;
 }
 .hero-page-button {
   background: var(--IRIS, #4d5ae5);
@@ -127,6 +131,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.64px;
   color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
 }
 .hero-page-button:hover,
 .hero-page-button:focus {
@@ -134,8 +145,19 @@ img {
   cursor: pointer;
 }
 /* section 2 */
+.feature-page {
+  padding: 120px 0;
+}
 .feature-page-title {
   color: var(--NAVY-BLUE, #2e2f42);
+  margin-bottom: 8px;
+}
+.feature-page-lists {
+  display: flex;
+  gap: 24px;
+}
+.feature-page-listone {
+  width: calc((100% - 72px) / 4);
 }
 .feature-page-text {
   font-size: 16px;
